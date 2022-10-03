@@ -9,14 +9,14 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-//  <h1 style={customStyle}>javaScript</h1>;
+<h1 style={customStyle}>javaScript</h1>;
 
-// const customStyle = {
-//   color: "red",
-//   fontSize: "10px",
-//   backgroundColor: "blue",
-//   padding: "20px",
-// };
+const customStyle = {
+  color: "red",
+  fontSize: "10px",
+  backgroundColor: "blue",
+  padding: "20px",
+};
 
 // customStyle.color = "orange";
 
