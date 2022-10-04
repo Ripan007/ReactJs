@@ -5,6 +5,8 @@
 `Npm -v`
 - Install react from terminal:
 
+`npx create-react-app <name>`
+
 `npm install -g create-react-app`
 
 `create-react-app <projectName>`
