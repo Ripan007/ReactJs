@@ -18,11 +18,12 @@ body{
 }
 
 .noteMain{
-    box-shadow: 0px 0px 5px;
+    box-shadow:  0px 5px 20px 0px rgba(216, 102, 10, 0.45);
     display: inline-block;
     border-radius: 5px;
     margin:20px;
     padding: 20px 10px;
+    
 }
 
 .noteTitle {

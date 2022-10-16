@@ -1,8 +1,27 @@
-# Getting Started with Create React App:
+# React:
+
+---
+
+## _Advantages of using react:_
+
+- A JavaScript library for building user interfaces
+  <img src="https://www.fastcomet.com/blog/wp-content/uploads/2022/03/react-advantages_2.png">
+
+---
+
+## _Disadvantages of using react:_
+
+<img src="https://www.fastcomet.com/blog/wp-content/uploads/2022/03/react-disadvatages_2.png">
+
+---
+
+## _How to work with react:_
+
 - Install Node and NPM :
 
-`Node -v` 
+`Node -v`
 `Npm -v`
+
 - Install react from terminal:
 
 `npx create-react-app <name>`
@@ -14,5 +33,9 @@
 `cd <projectName>`
 
 `npm start`
-## Git command:
+
+---
+
+## _Git command:_
+
 `git pull --rebase origin branch`
