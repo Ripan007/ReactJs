@@ -1,10 +1,11 @@
 # React:
 
+- A JavaScript library for building user interfaces
+
 ---
 
 ## _Advantages of using react:_
 
-- A JavaScript library for building user interfaces
   <img src="https://www.fastcomet.com/blog/wp-content/uploads/2022/03/react-advantages_2.png">
 
 ---
