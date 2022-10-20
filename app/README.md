@@ -1,0 +1,3 @@
+- use React.Fragment instead of div
+  - faster
+  - consume less memory
