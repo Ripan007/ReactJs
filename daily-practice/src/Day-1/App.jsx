@@ -1,12 +1,11 @@
 import React from 'react';
-import Task from './Task';
-import './style.css';
+import Cal from './Cal';
 
 function App() {
     return (
-        <Task />
-
+        <Cal />
     )
 }
+
 
 export default App;
