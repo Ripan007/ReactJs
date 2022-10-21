@@ -1,9 +1,17 @@
 import React from 'react';
-import Cal from './Cal';
+// import Cal from './Cal';
+
+import Material from './Material';
+
+
+
 
 function App() {
-    return (
-        <Cal />
+    return (<>
+        <Material />
+        {/* <Cal /> */}
+    </>
+
     )
 }
 
