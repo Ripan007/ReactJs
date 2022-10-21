@@ -20,23 +20,24 @@
 
 - Install Node and NPM :
 
-`Node -v`
-`Npm -v`
+      Node -v
+      Npm -v
+      Node --version
 
 - Install react from terminal:
 
-`npx create-react-app <name>`
+  `npx create-react-app <name>`
 
-`npm install -g create-react-app`
+  `npm install -g create-react-app`
 
-`create-react-app <projectName>`
+  `create-react-app <projectName>`
 
-`cd <projectName>`
+  `cd <projectName>`
 
-`npm start`
+  `npm start`
 
 ---
 
 ## _Git command:_
 
-`git pull --rebase origin branch`
+       git pull --rebase origin branch
