@@ -1,5 +1,5 @@
 ## _daily-practice:_
 
-| days  | content                                                                           |
+| Days  | content                                                                           |
 | ----- | --------------------------------------------------------------------------------- |
-| day-1 | jsx,component,inline-style,import-export, mini project,function,(Cal=>calculator) |
+| Day-1 | jsx,component,inline-style,import-export, mini project,function,(Cal=>calculator) |
