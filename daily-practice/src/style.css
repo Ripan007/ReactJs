@@ -4,12 +4,16 @@
     box-sizing: border-box;
 }
 
-body{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
+.heading{
+    text-align: center;
     text-transform: capitalize;
+    background-color:yellow;
+    color: white;
+    padding: 1.5rem;
 }
 
+.card{
+  width: 500px;
+  margin: 0 auto;
+  
+}
