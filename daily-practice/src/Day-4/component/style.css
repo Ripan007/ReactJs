@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 200px;
+}
+.container{
+    max-width: 500px;
+    margin:0 auto;
+
+}
+
+.image-circle{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    border:5px solid black;
+    object-fit: cover;
+    
+}
+
+.top{
+    background:rgb(255, 0, 221);
+}
+
+
+.bottom{
+    background: yellow;
+}
+
