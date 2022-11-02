@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    color: white;
+}
+.Expense-item{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items:center;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    margin:10px;
+    
+    
+    border-radius: 5px;
+    background:black;
+    
+}
+
+.Expense-item__price > p{
+    border: 1px solid green;
+    display: flex;
+justify-content: center;
+align-items:center;
+background:purple;
+color: white;
+padding: 1.2rem;
+border: 2px solid white;
+border-radius: 5px;
+
+}
+
+.Expense-item__description{
+    text-transform: capitalize;
+}
