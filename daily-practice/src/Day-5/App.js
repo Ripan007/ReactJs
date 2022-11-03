@@ -1,5 +1,5 @@
-import React from 'react';
-import ExpenseList from './component/Expenselist';
+
+import Expenses from './component/Expenses';
 
 function App() {
     const Expense = [
@@ -9,9 +9,8 @@ function App() {
     ]
     return (
         <>
-            <ExpenseList date={Expense[0].dat} description={Expense[0].desc} price={Expense[0].pri} />
-            <ExpenseList date={Expense[1].dat} description={Expense[1].desc} price={Expense[1].pri} />
-            <ExpenseList date={Expense[2].dat} description={Expense[2].desc} price={Expense[2].pri} />
+            <Expenses items={Expense} />
+
         </>
 
     )
