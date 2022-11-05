@@ -1,0 +1,7 @@
+.expenses{
+    background:rgb(199, 118, 11);
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center
+}
