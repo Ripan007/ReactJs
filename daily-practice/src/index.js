@@ -6,7 +6,8 @@ import ReactDOM from 'react-dom';
 // import App from './Day-4/component/App';
 //  
 // import App from './Day-6/App';
-import App from './contacts/App';
+// import App from './contacts/App';
+import App from './emojipedia/App';
 
 ReactDOM.render(
   <App />, document.getElementById("root")

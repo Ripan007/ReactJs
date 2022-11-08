@@ -7,6 +7,7 @@ import './Avatar.css';
 function createCard(contact) {
     return (
         <Card
+            id={contact.id}
             key={contact.id}
             name={contact.name}
             phoneNo={contact.phoneNo}
