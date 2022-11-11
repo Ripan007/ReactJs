@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 // import App from './Day-1/App.jsx';
 // import App from './Day-2/App.jsx';
 // import App from './Day-3/App.jsx';
@@ -7,8 +8,10 @@ import ReactDOM from 'react-dom';
 //  
 // import App from './Day-6/App';
 // import App from './contacts/App';
-import App from './emojipedia/App';
-
+// import App from './emojipedia/App';
+// import App from './routerReact/App';
+import App from './MockQ/App';
 ReactDOM.render(
-  <App />, document.getElementById("root")
+  <App />
+  , document.getElementById("root")
 )

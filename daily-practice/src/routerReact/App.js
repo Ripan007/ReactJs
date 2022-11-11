@@ -1,32 +1,17 @@
 import React from 'react';
-import NavBar from './components/NavBar';
-import { Switch, Route } from 'react-router-dom';
-import Home from './components/Home';
-import Contact from './components/Contact';
-import About from './components/About';
-import Service from './components/Service';
+import Submit from './component/Submit';
+import List from './component/List';
+import State from './component/State';
+
 function App() {
     return (
-        <div className="App">
-            <NavBar />
-            <Switch>
-                <Route path="./contact" component={Contact}></Route>
-                <Route path="./about" component={About}></Route>
-                <Route path="./service" component={Service}></Route>
-                <Route path="./" component={Home}></Route>
-            </Switch>
-
-
-        </div>
-
+        <>
+            <State />
+            <Submit />
+            <List />
+        </>
 
     )
 }
 
 export default App;
-
-// props => parent -> children
-// state => within the component => class component
-
-
-
