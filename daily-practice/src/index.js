@@ -10,7 +10,9 @@ import ReactDOM from 'react-dom';
 // import App from './contacts/App';
 // import App from './emojipedia/App';
 // import App from './routerReact/App';
-import App from './MockQ/App';
+// import App from './MockQ/App';
+// import App from './Day-7/App';
+import App from './foodApp/App';
 ReactDOM.render(
   <App />
   , document.getElementById("root")
