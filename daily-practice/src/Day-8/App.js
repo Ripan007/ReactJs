@@ -1,12 +1,11 @@
 
-import Card from './Task/component/Card';
 
 function App() {
     return (
         <>
 
 
-            <Card />
+
 
         </>
     )
