@@ -19,7 +19,6 @@ function TodoList() {
     }
 
     function removeActivity() {
-
         const updatedListData = listData.filte((elem, id) => {
             return i !== id;
         })
@@ -38,15 +37,11 @@ function TodoList() {
                 <p className="list-heading">here is your list:{")"}</p>
                 {listData !== [] && listData.map((data, i) => {
                     return (
-
                         <>
                             <p key={i}>
                                 <div className="listData">{data}</div>
                                 <div className="btn-position"> <button onClick={() => removeActivity(i)}>remove(-)</button>  </div>
-
-
                             </p>
-
                         </>
                     )
                 })}

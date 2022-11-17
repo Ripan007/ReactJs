@@ -1,6 +1,6 @@
 import React from 'react';
 import '../ui/style.css';
-import Login from './Login';
+// import Login from './Login';
 
 // let isLoggedIn = true;
 
@@ -20,11 +20,17 @@ import Login from './Login';
 //     }
 // }
 
+
+const currentHour = new Date().getHours();
+
+
 const Main = () => {
     return (
         <>
             <div className="container">
-                <Login />
+                {/* {isLoggedIn === true ? <h1> hello</h1> : <Login />} */}
+                {currentHour > 19 ? <h1>why you are  still lazy , wake up dude</h1> : null}
+
 
 
 

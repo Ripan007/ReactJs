@@ -12,8 +12,26 @@ import ReactDOM from 'react-dom';
 // import App from './routerReact/App';
 // import App from './MockQ/App';
 // import App from './Day-7/App';
-import App from './foodApp/App';
+// import App from './foodApp/App';
+// import App from './projects/App';
+// import App from './Day-8/App';
+// import App from './Day-8/KeeperApp/App';
+// import App from './Day-8/props/data/App';
+// import App from './Day-8/Map/data/App';
+// import App from './KeeperApp/content/App';
+
+// import App from './Mock/App';
+// import App from './KeeperApp/practice1/App';
+// import App from './State/App';
+// import App from './practices/App';
+import App from './practices/App';
+
+
+
+
 ReactDOM.render(
+
+
   <App />
   , document.getElementById("root")
 )

@@ -4,9 +4,10 @@ import Input from './Input';
 const Login = () => {
     return (
         <>
-            <h1>Hello</h1>
+
             <form className="form">
-                <Input />
+                <Input type="type" placeholder="username" />
+                <Input type="password" placeholder="password" />
                 <button type="submit">Login</button>
             </form>
         </>
