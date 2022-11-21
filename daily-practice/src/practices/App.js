@@ -3,11 +3,11 @@ import React from 'react';
 // import './ui/event.css';
 // import State from './data/State';
 // import Counters from './data/Counters';
-import Map from './data/Map';
+import Form from './data/Form';
 const App = () => {
     return (
         // <State />
-        <Map />
+        <Form />
     )
 }
 
