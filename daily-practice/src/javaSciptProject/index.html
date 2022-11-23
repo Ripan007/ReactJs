@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quote generator</title>
+</head>
+
+<body>
+    <style>
+        #modal {
+            border: 1px solid red;
+            display: inline-block;
+            padding: 1.2em 1.5em;
+            border-radius: 10px;
+            background-color: blue;
+            color: white;
+        }
+
+        #close-btn {
+            cursor: pointer;
+            font-size: 1.5rem;
+        }
+
+        #close-btn:hover {
+            color: red;
+        }
+
+        #modal-container {
+            display: none;
+        }
+    </style>
+    <button id="open-btn">
+        <p>where is our model</p>
+    </button>
+    <div id="modal-container">
+        <div id="modal">
+            <p>here i am</p>
+            <div id="close-btn">&times;</div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
