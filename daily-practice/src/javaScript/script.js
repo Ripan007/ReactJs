@@ -1,20 +1,43 @@
-const textDisplay = document.querySelector("#text");
-const phrases = ['Hello,i am ripan', 'i am a coder', 'i love to showcase my skill'];
-let i = 0;
-let j = 0;
+// selection done
+const inputTask = document.querySelector("#input-task");
+const addTask = document.querySelector("#add-task");
+const taskContainer = document.querySelector("#task-container");
 
-function loop() {
-    if (i < phrases.length) {
-        document.write(phrases[i])
-        if (j < phrases[i].length) {
-            document.write(` ${phrases[i][j]} <br>`)
-            j++
-        }
-        if (j == phrases[i].length) {
-            i++
-        }
+// adding function
+
+addTask.addEventListener('click', function () {
+    let task = document.createElement('div');
+    task.classList.add('task');
+
+    let li = document.createElement('li');
+    li.innerText = ` ${inputTask.value}`;
+    task.appendChild(li);
+
+    let checkButton = document.createElement('button');
+    checkButton.innerHTML = ` <i class="fa-solid fa-check"></i>`;
+    checkButton.classList.add('checkTask');
+    task.appendChild(checkButton);
+
+    let deleteButton = document.createElement('button');
+    deleteButton.innerHTML = ` <i class="fa-solid fa-trash"></i>`;
+    deleteButton.classList.add('checkTask');
+    task.appendChild(deleteButton);
+
+    if (inputTask === "") {
+        alert('enter some task');
+    } else {
+        taskContainer.appendChild(task);
     }
-    // setTimeout(loop, 500)
-}
+    inputTask.value = "";
 
-loop()
+    checkButton.addEventListener('click', function () {
+        checkButton.parentElement.style.textDecoration = "line-through";
+    })
+
+    deleteButton.addEventListener('click', function (e) {
+        let target = e.target;
+        target.parentElement.parentElement.remove();
+    })
+})
+
+

@@ -1,20 +1,21 @@
-let openBtn = document.querySelector("#open-btn");
-let closeBtn = document.querySelector("#close-btn");
-let modalContainer = document.querySelector("#modal-container");
+let btn = document.querySelector("button");
+let name = document.querySelector(".name");
+let quote = document.querySelector(".quote");
 
 
-openBtn.addEventListener('click', function () {
-    modalContainer.style.display = 'block';
+let quotes = [
+    { quote: "life is beauty", person: "xark" }, { quote: "enjoy life", person: "mork" }
+]
+
+
+btn.addEventListener("click", function () {
+    let random = Math.floor(Math.random() * quotes.length);
+
+    name.innerText = quotes[random].quote;
+    quote.innerText = quotes[random].person
 })
 
-closeBtn.addEventListener('click', function () {
-    modalContainer.style.display = 'none';
-})
 
-window.addEventListener('click', function (e) {
-    console.log(e);
-    if (e.target === modalContainer) {
-        modalContainer.style.display = 'none';
-    }
+// jquery //
 
-})
+
