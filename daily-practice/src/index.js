@@ -1,16 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { App } from './contextApi/App';
-
-
-
-
+import React from "react";
+import ReactDOM from "react-dom";
+import { App } from "./Hook/App";
 
 ReactDOM.render(
+  <App />,
 
-
-  <App />
-
-
-  , document.getElementById("root")
-)
+  document.getElementById("root")
+);

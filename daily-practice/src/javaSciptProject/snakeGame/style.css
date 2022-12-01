@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-image: url(https://img.freepik.com/free-vector/green-snake-crawling-white_1308-36175.jpg?size=626&ext=jpg) ;
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+#board{
+    box-shadow: 2px 2px 5px rgb(103, 195, 132);
+    width: 90vmin;
+    border-radius: 5px;
+    height: 90vmin;
+ background:transparent;
+ display: grid;
+ grid-template-columns: repeat(18,1fr);
+ grid-template-rows: repeat(18,1fr);
+
+}
+.head{
+    background-color: red;
+        border-radius: 50%;
+}
+
+.food{
+    background-color:yellow;
+    border-radius: 50%;
+}
+
+.snake{
+    background-color:purple;
+        border-radius: 50%;
+    
+}
+
+

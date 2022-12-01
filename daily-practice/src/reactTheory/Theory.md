@@ -40,4 +40,30 @@
 
 - takes a component and return a component
 - it is a pure function
--
+
+---
+
+##_this keyword:_
+
+- the javascript this keyboard refers to the object it belong to
+- it has different values depending on where it is used
+- alone, this refers to the global object
+- in a regular function this, keyword refers to the global object
+- in a method, this refer to the owner object
+- in a function , in strict mode , this is undefined
+- arrow function reference to the environment
+- normal function not reference to the environment up to it get called , ones it called it reference to the environment
+
+---
+
+## _classComponents:_
+
+- necessary thing to create a class components:
+
+  - render method is a required one
+  - extends component from react component
+
+- phases of life cycle of a component:
+  - 1> creation phase / mounting phase
+  - 2> updation phase
+  - 3> removal phase /deletion phase / unmounting phase
