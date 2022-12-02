@@ -1,10 +1,10 @@
 import React from "react";
-import { Task } from "./Task";
+import { List } from "./List";
 
 export const App = () => {
   return (
     <>
-      <Task />
+      <List />
     </>
   );
 };
