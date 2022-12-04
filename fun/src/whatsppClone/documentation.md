@@ -1,0 +1,8 @@
+- setup the firebase account
+- react-router-dom => as we know react is a single page application , it doesn,t support default navigation
+  - npm i react-router-dom
+  - import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+  - warp in hierarchial order Router,Routes,Route
+- for structure and icon we are using material ui
+  - npm install @mui/material @emotion/react @emotion/styled
+  - icon => npm install @mui/icons-material
