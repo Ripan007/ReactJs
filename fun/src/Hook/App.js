@@ -1,11 +1,9 @@
-import React, { useState } from "react";
-import { P2 } from "./P2";
+import React from "react";
+import { F1 } from "./form/F1";
 export const App = () => {
   return (
     <>
-      <P2 />
+      <F1 />
     </>
   );
 };
-
-// * creating a toggle //
