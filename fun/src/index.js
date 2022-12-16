@@ -1,6 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { App } from "./WhatsApp-Web-Clone---React-Project---5f04jg4w015g/App";
+
+// import { App } from "./movieWebsite/App";
+import { BrowserRouter as Router } from "react-router-dom";
+import { App } from "./useEffect/App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+root.render(
+  <Router>
+    <App />
+  </Router>
+);
