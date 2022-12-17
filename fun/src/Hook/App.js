@@ -1,9 +1,9 @@
 import React from "react";
-import { F1 } from "./form/F1";
+import { FormValidation } from "./form/FormValidation";
 export const App = () => {
   return (
     <>
-      <F1 />
+      <FormValidation />
     </>
   );
 };

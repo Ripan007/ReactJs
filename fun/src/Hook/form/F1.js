@@ -1,49 +1,67 @@
 import React, { useState } from "react";
 
 export const F1 = () => {
-  const [email, setEmail] = useState("");
+  const [mail, setMail] = useState("");
   const [password, setPassword] = useState("");
-  const [allentry, setallentry] = useState([]);
+  const [allData, setData] = useState([]);
 
-  const submitForm = (e) => {
+  function submit(e) {
     e.preventDefault();
-    const newEntry = { email: email, password: password };
-    setallentry([...allentry, newEntry]);
-  };
+    const newEntry = { mail: mail, pasword: password };
+    setData([...allData, newEntry]);
+    setMail("");
+    setPassword("");
+  }
 
+  function clearAll() {
+    setData([]);
+  }
+
+  // ! not woring i need to work more
+  function empty(id) {
+    const newList = allData.filter((index) => {
+      return id !== index;
+    });
+    setData(newList);
+  }
   return (
     <>
-      <form onSubmit={submitForm}>
-        <label htmlFor="email">email:</label>
-        <br />
+      <form onSubmit={submit}>
+        <label htmlFor="emil">email:</label>
         <input
           type="email"
-          placeholder="enter  the email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          placeholder="enter your email"
+          value={mail}
+          onChange={(e) => setMail(e.target.value)}
         />
-        <br />
         <label htmlFor="password">password:</label>
-        <br />
         <input
           type="password"
-          placeholder="enter the password"
+          placeholder="enter your password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <br />
         <button type="submit">login</button>
       </form>
       <>
-        {allentry.map((currEle, index) => {
+        {allData.map((currEle, index) => {
           return (
             <p key={index}>
               {" "}
-              {currEle.email} {currEle.password}{" "}
+              {currEle.mail} {currEle.password}
+              <button onClick={() => empty(index)}>empty</button>
             </p>
           );
         })}
+        <button onClick={clearAll}> clearAll</button>
       </>
     </>
   );
 };
+
+// * task
+// *  creating two input field => email, password
+// * read data dynamically
+// * print those data
+// * delete all the data
+// * delete one by one
