@@ -46,17 +46,45 @@
 
 //  fetch api in javaScript
 
-fetch("https://jsonplaceholder.typicode.com/posts")
-  .then((apiData) => {
-    return apiData.json();
-  })
-  .then((currData) => {
-    const data = currData[0];
-    console.log(data);
-    document.querySelector(
-      "#getData"
-    ).innerHTML = `the title is ${data.title}  and the body contain ${data.body}`;
-  })
-  .catch((error) => {
-    console.log(`the error: ${error}`);
-  });
+// fetch("https://jsonplaceholder.typicode.com/posts")
+//   .then((apiData) => {
+//     return apiData.json();
+//   })
+//   .then((currData) => {
+//     const data = currData[0];
+//     console.log(data);
+//     document.querySelector(
+//       "#getData"
+//     ).innerHTML = `the title is ${data.title}  and the body contain ${data.body}`;
+//   })
+//   .catch((error) => {
+//     console.log(`the error: ${error}`);
+//   });
+
+let pet = ["dog", "cat", "fish", "rat"];
+pet;
+
+// using forloop
+
+for (let i = 0; i < pet.length; i++) {
+  console.log(pet[i]);
+}
+
+// forEach
+// it will take a callBack and return the output
+
+pet.forEach((pets) => {
+  console.log(pets);
+});
+
+// forIn
+
+for (let petId in pet) {
+  console.log(petId);
+  // generally it gives the indices of the element
+  console.log(pet[petId]);
+}
+
+for (let pets of pet) {
+  console.log(pets);
+}

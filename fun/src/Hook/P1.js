@@ -5,7 +5,7 @@ export const P1 = () => {
 
   // function click() {
   //   setName("clicked");
-  // }
+  // }     
 
   const click = () => {
     setName("clicked");
@@ -14,7 +14,7 @@ export const P1 = () => {
   return (
     <>
       <h1>{name}</h1>
-      <button onClick={click}>click</button>
+      <button onClick={click}>click</button>         
     </>
   );
 };
